@@ -1,0 +1,124 @@
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #f5f7fa;
+        padding: 30px;
+        color: #333;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #2c3e50;
+    }
+
+    label {
+        font-weight: bold;
+        display: block;
+        margin: 15px 0 5px;
+    }
+
+    textarea, input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        resize: none;
+        font-size: 16px;
+        background-color: #fff;
+        box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    button {
+        padding: 10px 20px;
+        margin: 15px 10px 30px 0;
+        border: none;
+        border-radius: 6px;
+        background-color: #3498db;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #2980b9;
+    }
+
+    #ResetExpenses {
+        background-color: #e74c3c;
+    }
+
+    #ResetExpenses:hover {
+        background-color: #c0392b;
+    }
+
+    #errorMess, #errorMessamount {
+        color: red;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    #displayExp {
+        margin-top: 40px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    #totalSpent {
+        font-size: 20px;
+        font-weight: bold;
+        color: #16a085;
+        margin-bottom: 20px;
+    }
+
+    #expenseList li {
+        list-style: none;
+        padding: 12px;
+        margin-bottom: 10px;
+        background-color: #ecf0f1;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .delete-item {
+        background-color: #e74c3c;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        padding: 5px 12px;
+        cursor: pointer;
+    }
+
+    .delete-item:hover {
+        background-color: #c0392b;
+    }
+
+    @media (max-width: 600px) {
+        button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        #expenseList li {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .delete-item {
+            margin-top: 8px;
+        }
+    }
+
