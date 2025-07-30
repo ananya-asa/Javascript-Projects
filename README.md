@@ -1,50 +1,47 @@
 # JavaScript Projects
 
-A collection of JavaScript-based projects created to strengthen core programming concepts and build real-world functionality using vanilla JS, HTML, and CSS.
+A collection of JavaScript projects to practice core concepts and build real-world apps using vanilla JS, HTML, and CSS.
 
 ## 📂 Projects
 
-### ✅ Console-Based To-Do List
-A simple command-line To-Do list application built using JavaScript. It allows users to:
-- Add tasks
-- Mark tasks as completed
-- Delete tasks
-
-Useful for learning how to handle user input, manage arrays, and build logic for a task management system.
-
+### ✅ Console-Based To-Do List  
+- Add, complete, and delete tasks via command line.  
+- Learn input handling and array management.  
 📁 Directory: `console-todo`
 
 ---
 
-### 💰 Expense Tracker (Browser-Based)
-A browser-based application to track expenses with a user-friendly interface. It includes:
-- Adding expense descriptions and amounts
-- Displaying total amount spent
-- Deleting individual expenses
-- Resetting all data
-- Persistent data storage via `localStorage`
-
-Great for understanding DOM manipulation, events, form handling, and localStorage.
-
+### 💰 Expense Tracker  
+- Track expenses with description and amount.  
+- View total spent, delete items, and reset data.  
+- Data stored in `localStorage`.  
 📁 Directory: `expense-tracker`
 
 ---
 
-## 📌 Purpose
-This repository is part of my journey to master JavaScript and front-end development through hands-on practice. Each project is designed to reinforce key concepts and demonstrate real-world use cases.
+### ☁️ Weather App  
+- Enter city to get weather info from OpenWeatherMap API.  
+- Shows description, temperature, humidity, and wind speed.  
+- Handles errors and invalid inputs.  
+📁 Directory: `weather-app`
 
 ---
 
-## 📈 Future Enhancements
-- Project modularization
-- Framework-based rebuilds (React, Vue)
-- Deployment on GitHub Pages or Netlify
+## 📌 Purpose  
+Practice JavaScript fundamentals and build useful projects.
 
 ---
 
-## 📬 Feedback
-Feel free to open an issue or suggest improvements!
+## 📈 Future Plans  
+- Modularize projects  
+- Rebuild with React or Vue  
+- Deploy on GitHub Pages or Netlify
 
 ---
 
-> _“Practice is the key to mastery — this repository reflects consistent hands-on exploration with JavaScript.”_
+## 📬 Feedback  
+Issues and suggestions welcome!
+
+---
+
+> _“Practice is key to mastery.”_
