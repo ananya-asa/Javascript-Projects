@@ -27,6 +27,15 @@ A collection of JavaScript projects to practice core concepts and build real-wor
 
 ---
 
+### ❓ Quiz App  
+- 10-question interactive quiz.  
+- Highlight selected answer with feedback.  
+- Next/Previous navigation.  
+- Final score display.  
+📁 Directory: `quiz-app`
+
+---
+
 ## 📌 Purpose  
 Practice JavaScript fundamentals and build useful projects.
 
